@@ -7,9 +7,10 @@
   <version>0.1.0</version>
   <packaging>jar</packaging>
 
-  <name>directmedia</name>
+  <name>${project.groupId}:${project.artifactId}</name>
+  <description>Library to access the Google API (especially to read from and write to Google Sheets documents).</description>
   <url>http://directmediatips.com</url>
-
+  
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
